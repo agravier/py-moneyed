@@ -205,7 +205,7 @@ def get_currency(code):
         raise CurrencyDoesNotExist(code)
 
 DEFAULT_CURRENCY = add_currency(DEFAULT_CURRENCY_CODE, '999', 'Default currency.', [])
-
+BTC = add_currency('BTC', 'Nil', 'Bitcoin', [])
 
 AED = add_currency('AED', '784', 'UAE Dirham', ['UNITED ARAB EMIRATES'])
 AFN = add_currency('AFN', '971', 'Afghani', ['AFGHANISTAN'])
